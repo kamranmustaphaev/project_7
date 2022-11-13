@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+.header-wrapper {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icon:not(:last-child) {
+margin-right: 60px;
+}
+/* intro */
+.intro {
+    padding: 25px 0 60px;
+    background: #4FBFA5;
+}
+.intro-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+.nav-link:last-child {
+    background-color: white;
+    padding: 10px 50px;
+    color: black;
+}
+.intro-info {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.intro-img {
+    width: 60%;    
+}
+.intro-text {
+    width: 30%;
+}
+.intro-title { 
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+}
+.intro-descr {
+    font-size: 14px;
+    font-style: italic;
+    margin: 40px 0;
+}
+.intro-btn {
+    padding: 15px 25px;
+    background: #00868A;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: white;
+    font-style: italic;
+}    
+
+/* menu */
+
+.menu {
+    width: 1290px;
+    padding-left: 200px;
+    
+    
+}
+.menu-text {
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-style: italic;
+    font-size: 48px;
+    color: #00868A;
+    text-align: center;
+}
+.menu-items {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.lamps {
+    background-color: #00868A;
+    display: flex;
+}
+h6 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    color: white;
+    padding: 25px 0 25px 30px;
+   
+}
+.arrow {
+    padding: 35px 30px 35px 15px;
+}
+.new {
+    padding: 30px 200px 160px 30px;
+    background-image: url(../images/decorative.png);
+}
+.new2 {
+    padding: 30px 200px 160px 30px;
+    background-image: url(../images/industrial.png);
+}
+h4 {
+  padding: 10px 15px 10px 15px;
+  background: #4FBFA5;
+}
+
+
+.item:not(:last-child){
+    padding-right: 25px;
+}
+.last {
+    padding-top: 130px;
+    padding-left: 1300px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}

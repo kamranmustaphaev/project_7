@@ -1,0 +1,30 @@
+@media  (max-width: 992px) {
+    /* header */
+    .header-wrapper {
+        width: 80%;
+    }
+    .header-icon:not(:last-child) {
+     margin-right: 20px;
+     }
+    .intro-nav { 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+    }
+    .nav-link {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .intro-img {
+        display: none;
+    }
+    .intro-text {
+        width: 100%;
+    }
+    .intro-text {
+        width: 100%;
+    }
+    }
+
+
